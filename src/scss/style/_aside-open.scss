@@ -1,0 +1,17 @@
+.aside_open {
+    display: flex;
+    flex-direction: column;
+  
+    }
+    @media (min-width: 767px) {
+     .aside_open {
+       width: 320px;
+     }
+    }
+ .cover_open{
+     display: block;
+ }
+ 
+   .burger_open{
+     background-image: url("../img/cross.svg") !important;
+   }

@@ -1,0 +1,163 @@
+<head><script defer="defer" src="./js/vendors-node_modules_focus-visible_dist_focus-visible_js-node_modules_html-loader_dist_runtim-709223.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):
+  ValidationError: Invalid options object. Mini CSS Extract Plugin Loader has been initialized using an options object that does not match the API schema.
+   - options has an unknown property 'hmr'. These properties are valid:
+     object { publicPath?, emit?, esModule?, layer? }
+      at validate (C:\Users\user\Desktop\FinalM\node_modules\webpack\node_modules\schema-utils\dist\validate.js:105:11)
+      at Object.getOptions (C:\Users\user\Desktop\FinalM\node_modules\webpack\lib\NormalModule.js:585:19)
+      at Object.pitch (C:\Users\user\Desktop\FinalM\node_modules\mini-css-extract-plugin\dist\loader.js:77:24)
+  ModuleBuildError: Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):
+  ValidationError: Invalid options object. Mini CSS Extract Plugin Loader has been initialized using an options object that does not match the API schema.
+   - options has an unknown property 'hmr'. These properties are valid:
+     object { publicPath?, emit?, esModule?, layer? }
+      at validate (C:\Users\user\Desktop\FinalM\node_modules\webpack\node_modules\schema-utils\dist\validate.js:105:11)
+      at Object.getOptions (C:\Users\user\Desktop\FinalM\node_modules\webpack\lib\NormalModule.js:585:19)
+      at Object.pitch (C:\Users\user\Desktop\FinalM\node_modules\mini-css-extract-plugin\dist\loader.js:77:24)
+      at processResult (C:\Users\user\Desktop\FinalM\node_modules\webpack\lib\NormalModule.js:758:19)
+      at C:\Users\user\Desktop\FinalM\node_modules\webpack\lib\NormalModule.js:860:5
+      at C:\Users\user\Desktop\FinalM\node_modules\loader-runner\lib\LoaderRunner.js:399:11
+      at C:\Users\user\Desktop\FinalM\node_modules\loader-runner\lib\LoaderRunner.js:195:20
+      at runSyncOrAsync (C:\Users\user\Desktop\FinalM\node_modules\loader-runner\lib\LoaderRunner.js:156:3)
+      at C:\Users\user\Desktop\FinalM\node_modules\loader-runner\lib\LoaderRunner.js:191:3
+      at handleResult (C:\Users\user\Desktop\FinalM\node_modules\loader-runner\lib\loadLoader.js:53:2)
+      at loadLoader (C:\Users\user\Desktop\FinalM\node_modules\loader-runner\lib\loadLoader.js:35:10)
+      at iteratePitchingLoaders (C:\Users\user\Desktop\FinalM\node_modules\loader-runner\lib\LoaderRunner.js:182:2)
+      at runLoaders (C:\Users\user\Desktop\FinalM\node_modules\loader-runner\lib\LoaderRunner.js:397:2)
+  Cannot read properties of undefined (reading 'get')
+  during rendering of asset asset/resource|C:\Users\user\Desktop\FinalM\node_modules\mini-css-extract-plugin\dist\loader.js??ruleSet[1].rules[1].use[0]!C:\Users\user\Desktop\FinalM\node_modules\css-loader\dist\cjs.js!C:\Users\us  er\Desktop\FinalM\src\scss\main.css
+  ChunkRenderError: Cannot read properties of undefined (reading 'get')
+  during rendering of asset asset/resource|C:\Users\user\Desktop\FinalM\node_modules\mini-css-extract-plugin\dist\loader.js??ruleSet[1].rules[1].use[0]!C:\Users\user\Desktop\FinalM\node_modules\css-loader\dist\cjs.js!C:\Users\us  er\Desktop\FinalM\src\scss\main.css
+      at C:\Users\user\Desktop\FinalM\node_modules\webpack\lib\Compilation.js:4542:23
+      at symbolIterator (C:\Users\user\Desktop\FinalM\node_modules\neo-async\async.js:3482:9)
+      at timesSync (C:\Users\user\Desktop\FinalM\node_modules\neo-async\async.js:2297:7)
+      at Object.eachLimit (C:\Users\user\Desktop\FinalM\node_modules\neo-async\async.js:3463:5)
+      at Compilation.createChunkAssets (C:\Users\user\Desktop\FinalM\node_modules\webpack\lib\Compilation.js:4522:12)
+      at C:\Users\user\Desktop\FinalM\node_modules\webpack\lib\Compilation.js:3100:14
+      at C:\Users\user\Desktop\FinalM\node_modules\webpack\lib\Compilation.js:3277:6
+      at C:\Users\user\Desktop\FinalM\node_modules\neo-async\async.js:2818:7
+      at done (C:\Users\user\Desktop\FinalM\node_modules\neo-async\async.js:3522:9)
+      at C:\Users\user\Desktop\FinalM\node_modules\webpack\lib\Compilation.js:3240:8
+  
+  - validate.js:105 validate
+    [FinalM]/[webpack]/[schema-utils]/dist/validate.js:105:11
+  
+  - NormalModule.js:585 Object.getOptions
+    [FinalM]/[webpack]/lib/NormalModule.js:585:19
+  
+  - loader.js:77 Object.pitch
+    [FinalM]/[mini-css-extract-plugin]/dist/loader.js:77:24
+  
+  - ModuleBuildError: Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):
+  
+  - ValidationError: Invalid options object. Mini CSS Extract Plugin Loader has been initialized using an options object that does not match the API schema.
+  
+  - - options has an unknown property 'hmr'. These properties are valid:
+  
+  - object { publicPath?, emit?, esModule?, layer? }
+  
+  - validate.js:105 validate
+    [FinalM]/[webpack]/[schema-utils]/dist/validate.js:105:11
+  
+  - NormalModule.js:585 Object.getOptions
+    [FinalM]/[webpack]/lib/NormalModule.js:585:19
+  
+  - loader.js:77 Object.pitch
+    [FinalM]/[mini-css-extract-plugin]/dist/loader.js:77:24
+  
+  - NormalModule.js:758 processResult
+    [FinalM]/[webpack]/lib/NormalModule.js:758:19
+  
+  - NormalModule.js:860 
+    [FinalM]/[webpack]/lib/NormalModule.js:860:5
+  
+  - LoaderRunner.js:399 
+    [FinalM]/[loader-runner]/lib/LoaderRunner.js:399:11
+  
+  - LoaderRunner.js:195 
+    [FinalM]/[loader-runner]/lib/LoaderRunner.js:195:20
+  
+  - LoaderRunner.js:156 runSyncOrAsync
+    [FinalM]/[loader-runner]/lib/LoaderRunner.js:156:3
+  
+  - LoaderRunner.js:191 
+    [FinalM]/[loader-runner]/lib/LoaderRunner.js:191:3
+  
+  - loadLoader.js:53 handleResult
+    [FinalM]/[loader-runner]/lib/loadLoader.js:53:2
+  
+  - loadLoader.js:35 loadLoader
+    [FinalM]/[loader-runner]/lib/loadLoader.js:35:10
+  
+  - LoaderRunner.js:182 iteratePitchingLoaders
+    [FinalM]/[loader-runner]/lib/LoaderRunner.js:182:2
+  
+  - LoaderRunner.js:397 runLoaders
+    [FinalM]/[loader-runner]/lib/LoaderRunner.js:397:2
+  
+  - Cannot read properties of undefined (reading 'get')
+  
+  - during rendering of asset asset/resource|C:\Users\user\Desktop\FinalM\node_modules\mini-css-extract-plugin\dist\loader.js??ruleSet[1].rules[1].use[0]!C:\Users\user\Desktop\FinalM\node_modules\css-loader\dist\cjs.js!C:\Users\    user\Desktop\FinalM\src\scss\main.css
+  
+  - ChunkRenderError: Cannot read properties of undefined (reading 'get')
+  
+  - during rendering of asset asset/resource|C:\Users\user\Desktop\FinalM\node_modules\mini-css-extract-plugin\dist\loader.js??ruleSet[1].rules[1].use[0]!C:\Users\user\Desktop\FinalM\node_modules\css-loader\dist\cjs.js!C:\Users\    user\Desktop\FinalM\src\scss\main.css
+  
+  - Compilation.js:4542 
+    [FinalM]/[webpack]/lib/Compilation.js:4542:23
+  
+  - async.js:3482 symbolIterator
+    [FinalM]/[neo-async]/async.js:3482:9
+  
+  - async.js:2297 timesSync
+    [FinalM]/[neo-async]/async.js:2297:7
+  
+  - async.js:3463 Object.eachLimit
+    [FinalM]/[neo-async]/async.js:3463:5
+  
+  - Compilation.js:4522 Compilation.createChunkAssets
+    [FinalM]/[webpack]/lib/Compilation.js:4522:12
+  
+  - Compilation.js:3100 
+    [FinalM]/[webpack]/lib/Compilation.js:3100:14
+  
+  - Compilation.js:3277 
+    [FinalM]/[webpack]/lib/Compilation.js:3277:6
+  
+  - async.js:2818 
+    [FinalM]/[neo-async]/async.js:2818:7
+  
+  - async.js:3522 done
+    [FinalM]/[neo-async]/async.js:3522:9
+  
+  - Compilation.js:3240 
+    [FinalM]/[webpack]/lib/Compilation.js:3240:8
+  
+  - child-compiler.js:169 
+    [FinalM]/[html-webpack-plugin]/lib/child-compiler.js:169:18
+  
+  - Compiler.js:551 finalCallback
+    [FinalM]/[webpack]/lib/Compiler.js:551:5
+  
+  - Compiler.js:577 
+    [FinalM]/[webpack]/lib/Compiler.js:577:11
+  
+  - Compiler.js:1196 
+    [FinalM]/[webpack]/lib/Compiler.js:1196:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [FinalM]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1192 
+    [FinalM]/[webpack]/lib/Compiler.js:1192:33
+  
+  - Compilation.js:2787 finalCallback
+    [FinalM]/[webpack]/lib/Compilation.js:2787:11
+  
+  - Compilation.js:3092 
+    [FinalM]/[webpack]/lib/Compilation.js:3092:11
+  
+  
+</pre>
